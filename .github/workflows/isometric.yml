@@ -1,16 +1,26 @@
-name: Metrics
+name: Generate Snake
+
 on:
-  # Faz o robô trabalhar a cada 24 horas
-  schedule: [{cron: "0 0 * * *"}]
-  # Permite que você rode manualmente se quiser
+  schedule:
+    - cron: "0 */12 * * *" # Roda a cada 12 horas
   workflow_dispatch:
+
 jobs:
-  github-metrics:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: Platane/snk@v3
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year # Mostra os últimos 6 meses
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
