@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-(https://github-readme-stats.vercel.app/api?username=bocato-ana&hide=contribs,prs)
+![Isometric Calendar](https://github.com/bocato-ana/bocato-ana/blob/master/github-metrics-contribution-graph.svg)
