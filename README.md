@@ -16,4 +16,4 @@ Here are some ideas to get you started:
 -->
 
 ### 📊 Minhas Contribuições em 3D
-![Isometric Calendar](github-metrics-contribution-graph.svg)
+![](github-metrics.svg)
