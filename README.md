@@ -1,19 +1,21 @@
-## Hi there 👋
+🚀 Olá, eu sou a Ana Luiza Bocato!
+Gerente de Dados e IA na Scitec | Estudante de Ciência e Tecnologia na UNIFESP
 
-<!--
-**bocato-ana/bocato-ana** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+🛠️ No que estou trabalhando:
+Liderança na Scitec: Gerencio o time de Dados e IA, estruturando treinamentos de Python, Tratamento de Dados e Streamlit para novos talentos.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Pesquisa Acadêmica: Desenvolvo estudos sobre análise de viés em IA (Fairlearn), focando em ética e equidade nos algoritmos.
 
-### 📊 Minhas Contribuições em 3D
+💻 Minha Stack Técnica:
+Linguagens & Data Science: Python, Pandas, NumPy, Matplotlib.
+
+IA & Ética: Fairlearn, Scikit-learn, análise de bias.
+
+DevOps & Dashboards: Git, GitHub, Streamlit.
+
+🌿 Além do Código:
+Quando não estou no terminal ou em reuniões da Scitec, provavelmente estou cozinhando, lendo um livro ou nadando em água gelada de cachoeiras.
+
+### 📊 Minhas Contribuições
 ![Snake animation](https://raw.githubusercontent.com/bocato-ana/bocato-ana/output/github-snake.svg)
