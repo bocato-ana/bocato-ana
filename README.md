@@ -16,4 +16,4 @@ Here are some ideas to get you started:
 -->
 
 ### 📊 Minhas Contribuições em 3D
-![](github-metrics.svg)
+![Snake animation](https://raw.githubusercontent.com/bocato-ana/bocato-ana/output/github-snake.svg)
