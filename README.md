@@ -1,5 +1,5 @@
 # 🚀 Olá, eu sou a Ana Luiza Bocato!
-##Gerente de Dados e IA na Scitec | Estudante de Ciência e Tecnologia na UNIFESP
+## Gerente de Dados e IA na Scitec | Estudante de Ciência e Tecnologia na UNIFESP
 
 
 ### 🛠️ No que estou trabalhando:
