@@ -1,0 +1,16 @@
+name: Metrics
+on:
+  # Faz o robô trabalhar a cada 24 horas
+  schedule: [{cron: "0 0 * * *"}]
+  # Permite que você rode manualmente se quiser
+  workflow_dispatch:
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year # Mostra os últimos 6 meses
